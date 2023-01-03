@@ -2,9 +2,10 @@
 
 .logo{
     font-family: 'Raleway', sans-serif;
-    font-size: 36px;
+    font-size: 30px;
     font-weight: 700;
-    color:rgb(98, 167, 228)
+    color:rgb(0,26,110);
+    margin-left: 10px;
     
 
 }
@@ -14,7 +15,7 @@
     font-weight: 300;
 }
 .icon{
-    color: red;
+  color:rgb(0,26,110);
     margin-left: 5px;
     margin-right: 5px;
 }
@@ -161,7 +162,7 @@ body, html {
 .bgimage {
     width:100%;
     height: 600px;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('/nurse-hero.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('/nurse-hero2.jpeg');
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
@@ -170,21 +171,21 @@ body, html {
   }
   .large-icon{
     
-    font-size: 10rem;
-    color:rgb(98, 167, 228)
+    font-size: 8rem;
+    color:rgb(0,26,110);
   }
 
   .splashLarge{
-    font-size: 10rem;
-    font-family: 'Splash';
+    font-size: 6rem;
     text-align: center;
     color: white;
+    font-family: 'Lato';
   }
 
   .servicesContainer{
    
    
-    background-color: darkblue;
+    background-color: rgb(0,26,110);
     color: white;
    
  

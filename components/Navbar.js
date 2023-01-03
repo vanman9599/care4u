@@ -9,7 +9,7 @@ const MENU_LIST = [
   { text: "Services", href: "/servuces" },
   { text: "About Us", href: "/about" },
   { text: "Book Appointment", href: "/booking" },
-  { text: "Contact", href: "https://api.whatsapp.com/send?phone=6281274888687" },
+  { text: "Contact", href: "/contact" },
 ];
 const Navbar = () => {
   const [navActive, setNavActive] = useState(null);
@@ -19,12 +19,13 @@ const Navbar = () => {
     <header>
       <nav className={`nav`}>
         <Link href={"/"}>
-          <a>
-          <span className="logo"><i className="bi bi-heart-pulse-fill icon"></i>
-         Care4U <span className="logo-light">Bali</span>
-         
-        </span>
-          </a>
+            <img className='logo' src="/care4u-bali-small.png"></img>
+        {/* <a>
+        <span className="logo"><i className="bi bi-heart-pulse-fill icon"></i>
+        Care4U <span className="logo-light">Bali</span>
+        
+      </span>
+        </a> */}
         </Link>
         <div
           onClick={() => setNavActive(!navActive)}
