@@ -22,6 +22,7 @@
   background-color: orangered;
   border-radius: 10%;
   color: white;
+  padding: 20px;
 }
 .promo{
   border: 2px;
@@ -30,6 +31,7 @@
   border-style: dashed;
   text-align: center;
   padding-top: 15px;
+  padding-bottom: 15px;
   
 }
 
