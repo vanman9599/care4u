@@ -9,10 +9,12 @@
 
 .box{
   border: 1px;
-  padding: 5px;
-  margin: 10px;
+  margin: auto;
   border-color: darkred;
   background-color: aliceblue;
+  width: 70%;
+  
+
 
 
 }
@@ -35,7 +37,7 @@
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
-    color:rgb(0,26,110);
+    color: white;
     margin-left: 10px;
     
 
@@ -71,24 +73,25 @@ header{
   position: sticky;
   z-index: 30;
   top: 0;
-}
+  }
 nav{
   display: flex;
   padding: 16px;
   justify-content: space-between;
   align-items: center;
-  background-color: white;
+  background-color: rgb(20, 4, 78);
 }
 .nav__menu-bar{
   display: flex;
   flex-direction: column;
   row-gap: 6px;
   cursor: pointer;
+  
 }
 .nav__menu-bar div{
   width: 40px;
   height: 4px;
-  background-color: white;
+  background-color: black;
   border-radius: 2px;
 }
 .nav__menu-list{
@@ -102,8 +105,8 @@ nav{
   padding: 24px 16px;
   transition: all 0.2s;
   min-height: calc(100vh - 60px);
-  background-color: white;
-  color: black;
+  background-color: rgb(20, 4, 78);
+  color: white;
 }
 .nav__menu-list.active{
   right: 0;

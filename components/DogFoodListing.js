@@ -7,7 +7,7 @@ const DogFoodListing = ()=>{
 
 
 <div className="container-fluid box">
-          <div className="row justify-content-evenly">
+          <div className="row justify-content-evenly m-auto">
             <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                <h2>{food.foodname} <span className="rating">{food.title}</span></h2>
                
