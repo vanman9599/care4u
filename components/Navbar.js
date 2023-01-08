@@ -1,14 +1,14 @@
 import Link from "next/link";
-
+import { faCode, faDog } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useState } from "react";
 
 import NavItem from "./NavItem";
 
 const MENU_LIST = [
   { text: "Home", href: "/" },
-  { text: "Services", href: "/servuces" },
-  { text: "About Us", href: "/about" },
-  { text: "Book Appointment", href: "/booking" },
+  { text: "Dog Food", href: "/about" },
+  { text: "Pet Insurance", href: "/portfolio" },
   { text: "Contact", href: "/contact" },
 ];
 const Navbar = () => {
@@ -19,14 +19,15 @@ const Navbar = () => {
     <header>
       <nav className={`nav`}>
         <Link href={"/"}>
-            <img className='logo' src="/care4u-bali-small.png"></img>
-        {/* <a>
-        <span className="logo"><i className="bi bi-heart-pulse-fill icon"></i>
-        Care4U <span className="logo-light">Bali</span>
+          
+        <div className="logo">Dogtastic</div>
         
-      </span>
-        </a> */}
+        {/* <p><FontAwesomeIcon className="icon" icon={faDog}/><span className="logo">Dogtastic</span></p>  */}
+        
+     
+        
         </Link>
+        <h1 style={{color: 'red'}}>Coming Soon!!</h1>
         <div
           onClick={() => setNavActive(!navActive)}
           className={`nav__menu-bar`}
