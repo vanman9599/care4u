@@ -19,7 +19,7 @@ function HomePage() {
         
         </div>
    
-        <Article 
+        {/* <Article 
             title="What fresh dog food will you feed your dog?"
             pic="dog_bowl_landscape.jpeg"
             article="
@@ -34,7 +34,7 @@ Ex has delectus vituperata, ne eum alia volumus, mea accusamus repudiandae no. E
 At vel unum mollis. Vel in tibique epicuri voluptua. Vis et stet velit torquatos. In mei adhuc omnes. Quo natum putant ex, eu eum noster assentior inciderint. Te mea altera ocurreret accommodare. Ut facilis phaedrum quaerendum vim, vidisse oblique at nec.
             
             "
-        />
+        /> */}
  <DogFoodListing/>
      </>)
   }
