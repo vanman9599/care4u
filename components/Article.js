@@ -3,9 +3,9 @@ import react from 'react';
 const Article = (props) =>{
 
     return(
-        <div className="container-fluid article">
-          <div className="row m-auto">
-            <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 p-5">
+        <div className="container-fluid article offset-md-2">
+          <div className="row offset-md-2">
+            <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 mx-auto">
             
                 <h1>{props.title}</h1>
                 <img className="image1" src={props.pic} />
