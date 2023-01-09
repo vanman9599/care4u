@@ -8,6 +8,10 @@
   width: 70%;
   padding: 15px;
 }
+.article-text{
+  font-family: 'Verdana, Geneva, Tahoma, sans-serif';
+  font-size: 1.5rem;
+}
 .description{
   font-size: 1rem;
 }
