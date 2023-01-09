@@ -20,10 +20,8 @@ const Navbar = () => {
       <nav className={`nav`}>
         <Link href={"/"}>
           
-        <div className="logo">Dogtastic</div>
-        
-        {/* <p><FontAwesomeIcon className="icon" icon={faDog}/><span className="logo">Dogtastic</span></p>  */}
-        
+        <img className="logo" src="dogtastic_logo.png" /> 
+              
      
         
         </Link>
