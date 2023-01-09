@@ -3,6 +3,11 @@
   font-size: 1.5rem;
   font-weight: bolder;
 }
+.article{
+  margin: auto;
+  width: 70%;
+  padding: 15px;
+}
 .description{
   font-size: 1rem;
 }
