@@ -20,9 +20,9 @@ function HomePage() {
         </div>
    
         <Article 
-            title="What fresh dog food will you feed your dog?"
-            pic="dog_bowl_landscape.jpeg"
-            pic_mobile="dog_bowl_landscape_300.jpeg"
+            title=""
+            pic="dog_bowl_landscape_800x500.png"
+            pic_mobile="dog_bowl_landscape_small.png"
             article="
             Lorem ipsum dolor sit amet, ad qui nulla malorum adipiscing. Eam te vero alterum maiorum, id persius numquam nominavi sit. Te per assum epicuri voluptaria. Audiam virtute scripserit vis te, nibh exerci definitiones id ius, debitis perpetua liberavisse vel at. Quidam apeirian inimicus ad sit, qui possit scaevola deseruisse ne.
 
