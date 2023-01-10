@@ -19,17 +19,10 @@ function HomePage() {
         
         </div>
    
-        <Article 
-            title=""
-            pic="dog_bowl_landscape_800x500.png"
-            pic_mobile="dog_bowl_landscape_small.png"
-            article="
-            Lorem ipsum dolor sit amet, ad qui nulla malorum adipiscing. Eam te vero alterum maiorum, id persius numquam nominavi sit. Te per assum epicuri voluptaria. Audiam virtute scripserit vis te, nibh exerci definitiones id ius, debitis perpetua liberavisse vel at. Quidam apeirian inimicus ad sit, qui possit scaevola deseruisse ne.
-
-Ut mel petentium pertinacia signiferumque, mel et iusto imperdiet. Est cu phaedrum perpetua signiferumque. Agam altera integre cum no. Pri eu aliquip laboramus, ea graeco neglegentur liberavisse nec, at error democritum has. Eam an partem eligendi pertinax, modus denique id sed. Ad discere facilisi repudiandae eam.
-   
-            "
-        />
+        
+            <Hero />
+        
+        
  <DogFoodListing/>
      </>)
   }

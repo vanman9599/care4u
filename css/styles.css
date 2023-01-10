@@ -2,8 +2,21 @@
   display: none;
 }
 .image1{
-  margin: auto;
-}
+  
+  background-image: url('../public/brands_hero.png');
+    /* Set a specific height */
+    height: 800px;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: block;
+  }
+  
+
+
 
 @media only screen and (max-width: 500px){
   .image1{
@@ -12,6 +25,7 @@
 
   .image2{
     display: block;
+    background-image: url('../public/dog_bowl_landscape_small.png')
   }
   .article-text{
     width: 100%
