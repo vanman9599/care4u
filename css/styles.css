@@ -115,7 +115,7 @@ nav{
   padding: 16px;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(37,10,137)
+  background-color: white;
 }
 .nav__menu-bar{
   display: flex;
@@ -141,8 +141,8 @@ nav{
   padding: 24px 16px;
   transition: all 0.2s;
   min-height: calc(100vh - 60px);
-  background-color: rgb(37,10,137);
-  color: white;
+  background-color: white;
+  color: navy;
 }
 .nav__menu-list.active{
   right: 0;
