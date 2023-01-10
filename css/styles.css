@@ -27,9 +27,7 @@
     display: block;
     background-image: url('../public/dog_bowl_landscape_small.png')
   }
-  .article-text{
-    width: 100%
-  }
+ 
 }
 
 .rating{
