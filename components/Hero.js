@@ -15,11 +15,12 @@ const Hero = () => {
           </div>
         </div>
       
-
-
-<div className="container-fluid image2">
-  
+<div className="image2">
+  <img className="container-fluid" src="dog_bowl_landscape_small.png" />
 </div>
+
+  
+
 
 </> )
 

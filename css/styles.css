@@ -25,7 +25,19 @@
 
   .image2{
     display: block;
-    background-image: url('../public/dog_bowl_landscape_small.png')
+    margin: auto;
+  }
+ 
+}
+
+@media only screen and (max-width: 800px){
+  .image1{
+    display: none;
+  }
+
+  .image2{
+    display: block;
+    
   }
  
 }
