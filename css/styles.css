@@ -12,6 +12,7 @@
     background-repeat: no-repeat;
     vertical-align: top;
     position: relative;
+    background-size: cover;
     
   }
   .headline{
