@@ -8,13 +8,19 @@
     height: 800px;
 
     /* Position and center the image to scale nicely on all screens */
-    background-position: center;
+    background-position:top;
     background-repeat: no-repeat;
-    background-size: cover;
+    vertical-align: top;
     position: relative;
-    display: block;
+    
   }
-  
+  .headline{
+    color: yellow;
+    background-color: rgb(19,76,8);
+    font-family: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif";
+    padding: 5px;
+    font-size: x-large;
+  }
 
 
 
@@ -26,6 +32,10 @@
   .image2{
     display: block;
     margin: auto;
+    background-position:top;
+    background-repeat: no-repeat;
+    position: relative;
+    background-image: url('../public/dog_bowl_landscape_small.png');
   }
  
 }
@@ -71,6 +81,7 @@
   width: 70%;
   padding: 15px;
   border-style: outset;
+  background-position: top;
   
 
 
